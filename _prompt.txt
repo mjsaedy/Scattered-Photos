@@ -1,0 +1,5 @@
+Using C# and targeting .NET Framework 4.7+ and compiling with csc.exe, write a console program to generate a collage of images but in a very specific way. The program accepts as command line arguments the dimensions of the generated image and a background color and a border color. It also accepts a folder path and an optional number. It will create a unique name for the output jpeg file.
+For example:
+GenerateCollage.exe /dim:1920x1080 /bg:Black /border:white /num:20 /source:D:\images 
+
+The program will grab the specified number of images from the provided folder and draw them scaled to fit inside the canvas with a border around each image. Each image will be rotated at a random angle. The desired output is the likeness of a desktop with images scattered on it randomly. It is ok and even desirable if some of the images overlap to give a more realistic look.
